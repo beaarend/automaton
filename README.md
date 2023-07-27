@@ -1,2 +1,2 @@
 # Automaton
-Making a simple banking system using JFLAP for the automaton part and C++.
+Making a simple banking system using JFLAP for the automaton part and C++ for the implementation.
