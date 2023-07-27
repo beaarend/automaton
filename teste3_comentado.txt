@@ -1,0 +1,11 @@
+030
+12345
+contaErrada
+
+
+
+
+-----------------
+Aqui, o programa REJEITA.
+O usuário insere dados de uma conta que não existe.
+

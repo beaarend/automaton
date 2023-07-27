@@ -1,0 +1,20 @@
+001 (numAgencia)
+20350 (numConta)
+contaCorreta
+162961 (senhaCorreta)
+consultar
+confirmar
+162961 (senhaCorreta)
+
+
+
+-----------------
+Aqui, o programa ACEITA. 
+O usuário inseriu corretamente os dados de sua conta,
+escolheu a opção de consultar 
+e confirmou sua senha novamente.
+
+
+
+
+

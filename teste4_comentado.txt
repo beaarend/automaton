@@ -1,0 +1,19 @@
+002 (numAgencia)
+30520 (numConta)
+contaCorreta
+451078 (senhaCorreta)
+saque
+50
+confirmar
+444444 (senhaErrada)
+555555 (senhaErrada)
+666666 (senhaErrada)
+
+
+
+-----------------
+Aqui, o programa REJEITA. 
+O usuário inseriu corretamente os dados de sua conta, 
+escolheu a opção de saque, 
+incluiu o valor que quer que seja retirado, 
+porém errou sua senha três vezes.
