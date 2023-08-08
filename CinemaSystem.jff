@@ -180,13 +180,6 @@
 			<read>voltar</read>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>9</from>&#13;
-			<to>0</to>&#13;
-			<controlx>496</controlx>&#13;
-			<controly>693</controly>&#13;
-			<read>senhaErrada</read>&#13;
-		</transition>&#13;
-		<transition>&#13;
 			<from>3</from>&#13;
 			<to>4</to>&#13;
 			<read>bala</read>&#13;
