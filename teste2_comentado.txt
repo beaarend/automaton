@@ -1,22 +1,19 @@
-001 (numAgencia)
-20305 (numConta)
-contaCorreta
-943599 (senhaErrada)
-162961 (senhaCorreta)
-pagamento
-002 (pagAgencia)
-30520 (pagConta)
-contaCorreta
-200
+usuário
+senha
+oppenheimer
+19h
+pipocaDoce
+voltar
+refrigerante
 confirmar
-162961 (senhaCorreta)
+numCartão
+senhaCorreta
 
 
 
 -----------------
 Aqui, o programa ACEITA. 
-O usuário inseriu corretamente os dados de sua conta,
-errou a sua senha uma vez, 
-escolheu a opção de pagamento, 
-incluiu agência e conta que vai ser paga além do valor,  
-e confirmou sua senha novamente.
+O usuário inseriu seus dados,
+escolheu olhar Oppenheimer às 19h,
+pegou uma pipoca doce e um refrigerante e
+pagou no cartão, acertando sua senha de primeira.

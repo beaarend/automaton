@@ -1,19 +1,22 @@
-002 (numAgencia)
-30520 (numConta)
-contaCorreta
-451078 (senhaCorreta)
-saque
-50
+usuário
+senha
+barbie
+17h
+pipocaDoce
+voltar
+chocolate
 confirmar
-444444 (senhaErrada)
-555555 (senhaErrada)
-666666 (senhaErrada)
+numCartão
+senhaErrada
+senhaErrada
+senhaErrada
 
 
 
 -----------------
 Aqui, o programa REJEITA. 
-O usuário inseriu corretamente os dados de sua conta, 
-escolheu a opção de saque, 
-incluiu o valor que quer que seja retirado, 
+O usuário inseriu seus dados,
+escolheu olhar Barbie ás 17h,
+pegou uma pipocaDoce e um chocolate, 
+escolheu pagar no cartão
 porém errou sua senha três vezes.

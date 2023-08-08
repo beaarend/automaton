@@ -1,11 +1,15 @@
-030
-12345
-contaErrada
+usuário
+senha
+megatubarão
+22h
 
 
 
 
 -----------------
 Aqui, o programa REJEITA.
-O usuário insere dados de uma conta que não existe.
+O usuário inseriu seus dados,
+escolheu olhar Megatubarão, porém escolheu 
+um horário que não está disponível.
+
 
