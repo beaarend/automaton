@@ -1,8 +1,8 @@
-usuário
+usuario
 senha
 barbie
 21h
-pipocaDoce
+pipocaSalgada
 confirmar
 dinheiro
 troco
