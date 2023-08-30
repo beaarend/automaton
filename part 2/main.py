@@ -14,19 +14,43 @@ def main():
 
     states = ['q0', 'q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10', 'q11', 'q12']
     transitions = [
+      
         {'usuario': 'q1', 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': None, 'senhaErrada': None},
+  
         {'usuario': None, 'senha': 'q2', 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': None, 'senhaErrada': None},
+        
+        #q2
         {'usuario': None, 'senha': None, 'barbie': 'q3', 'megatubarão': 'q3', 'oppenheimer': 'q3', 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': None, 'senhaErrada': None},
+
         {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': 'q2', '17h': 'q4', '19h': 'q4', '21h': 'q4', 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': None, 'senhaErrada': None},
+
         {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': 'q5', 'pipocaDoce': 'q5', 'refrigerante': 'q5', 'chocolate': 'q5', 'água': 'q5', 'bala': 'q5', 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': None, 'senhaErrada': None},
+       
+        #q5
         {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': 'q4', 'confirmar': 'q6', 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': None, 'senhaErrada': None},
-        {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': 'q7', 'troco': None, 'numCartão': None, 'senhaCorreta': None, 'senhaErrada': None},
+        
+        #q6
+        {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': 'q7', 'troco': None, 'numCartão': 'q8', 'senhaCorreta': None, 'senhaErrada': None},
+
+        #q7
         {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': 'q12', 'numCartão': None, 'senhaCorreta': None, 'senhaErrada': None},
-        {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': 'q8', 'senhaCorreta': None, 'senhaErrada': None},
+
+        # #q6.2
+        # {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': 'q8', 'senhaCorreta': None, 'senhaErrada': None},
+        
+        #q8
         {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': 'q12', 'senhaErrada': 'q9'},
+        
+        #q9
         {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': 'q12', 'senhaErrada': 'q10'},
+        
+        #q10
         {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': 'q12', 'senhaErrada': 'q11'},
+        
+        #q11
         {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': 'q12', 'senhaErrada': None},
+        
+        #q12
         {'usuario': None, 'senha': None, 'barbie': None, 'megatubarão': None, 'oppenheimer': None, 'outroIngresso': None, '17h': None, '19h': None, '21h': None, 'pipocaSalgada': None, 'pipocaDoce': None, 'refrigerante': None, 'chocolate': None, 'água': None, 'bala': None, 'voltar': None, 'confirmar': None, 'dinheiro': None, 'troco': None, 'numCartão': None, 'senhaCorreta': None, 'senhaErrada': None},
     ]
 

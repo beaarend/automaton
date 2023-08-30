@@ -2,7 +2,7 @@ usuario
 senha
 barbie
 21h
-pipocaSalgada
+bala
 confirmar
 dinheiro
 troco
